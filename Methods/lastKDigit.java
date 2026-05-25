@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class lastKDigit{
     static long lastsecond(long n,int k){ // return last Kth digit
-        return (n/(long)Math.pow(10, k))%10;
+        return (n/(long)Math.pow(10, k-1))%10;
         
     }
     public static void main(String[] args){

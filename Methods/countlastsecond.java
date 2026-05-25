@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class countlastsecond{
-    static long lastsecond(long n){
+    static long lastsecond(long n){ // return last second digit
         if (n<9) return 0;
         return (n/10)%10;
     }
